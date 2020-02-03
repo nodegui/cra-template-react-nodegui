@@ -1,0 +1,17 @@
+{
+  "name": "cra-template-react-nodegui",
+  "version": "0.0.3",
+  "keywords": [
+  ],
+  "description": "CRA template for react-nodegui",
+  "main": "template.json",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.10"
+  },
+  "author": "Shubham Zanwar",
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
