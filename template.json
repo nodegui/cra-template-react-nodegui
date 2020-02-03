@@ -1,0 +1,28 @@
+{
+    "dependencies": {
+      "@nodegui/nodegui": "^0.12.1",
+      "@nodegui/react-nodegui": "^0.4.0",
+      "open": "^7.0.0",
+      "react": "^16.12.0",
+      "@babel/core": "^7.7.7",
+      "@babel/preset-env": "^7.7.7",
+      "@babel/preset-react": "^7.7.4",
+      "@babel/preset-typescript": "^7.7.7",
+      "@types/node": "^12.12.22",
+      "@types/react": "^16.9.17",
+      "@types/webpack-env": "^1.14.1",
+      "babel-loader": "^8.0.6",
+      "clean-webpack-plugin": "^3.0.0",
+      "file-loader": "^5.0.2",
+      "fork-ts-checker-webpack-plugin": "^3.1.1",
+      "native-addon-loader": "^2.0.1",
+      "typescript": "^3.7.4",
+      "webpack": "^4.41.4",
+      "webpack-cli": "^3.3.10"
+    },
+    "scripts": {
+      "build": "webpack -p",
+      "dev": "webpack --mode=development",
+      "start": "qode --inspect ./dist/index.js"
+    }
+}
